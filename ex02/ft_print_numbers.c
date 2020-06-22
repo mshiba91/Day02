@@ -7,23 +7,23 @@ void ft_putchar(char c)
 
 void ft_print_numbers(void)
 {
-	int numbers;
-    int i;
+	char i;
 
-    numbers= '1';
-    i= '9';
-    while (numbers <= 'i')
+     i= '0';
+    
+    while (i <= '9')
     {
-        ft_putchar(numbers);
-        numbers++;
+        ft_putchar(i);
+        i++;
     }
 }
 
- int main(void)
+int main(void)
 {
         ft_print_numbers();
         ft_putchar('\n');
         return (0);
 }
+
 ~
 ~

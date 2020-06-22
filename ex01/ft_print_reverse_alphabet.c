@@ -9,17 +9,11 @@ void ft_print_reverse_alphabet(void)
 {
 	char alphabet;
 	
-	alphabet= 'Z';
-			while (alphabet >= 'A')
+	alphabet= 'z';
+			while (alphabet >= 'a')
 		{
 			ft_putchar(alphabet);
 			alphabet--;
 		}
 }
 
-int main(void)
-{
-	ft_print_reverse_alphabet();
-	ft_putchar('\n');
-	return (0);
-}
