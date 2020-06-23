@@ -22,4 +22,11 @@ void ft_putnbr(int nb)
 		ft_putchar('-');
 		ft_putnbr(nb * -1);
 	}
+}
+int main (void)
 
+{
+	 ft_putchar();
+	 ft_putchar(nb * -1);
+	 return (0);
+}
